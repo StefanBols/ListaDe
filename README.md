@@ -2,7 +2,7 @@
 The project description is not yet anything - go to YouTube and watch some cat videos in the meantime.
 
 ## Missing sections
-Sections which will be implemented sometime in the furture.
+Sections which may be implemented sometime in the furture.
 ### Backend (some API with json responses)
 1. Config file for RSS feeds and IMDb lists
 2. Text files structered as "databases"-ich
