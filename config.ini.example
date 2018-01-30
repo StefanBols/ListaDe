@@ -1,0 +1,13 @@
+[DEFAULT]
+# Your list of RSS feeds. Check readme.md for fields of the feed that are used 
+RSSFEEDS = [
+	"...",
+	"...",
+	"..."
+]
+# Your list of IMDb lists.
+IMDBLISTS = [
+	"...",
+	"...",
+	"..."
+]
