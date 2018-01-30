@@ -1,13 +1,12 @@
 [DEFAULT]
 # Your list of RSS feeds. Check readme.md for fields of the feed that are used 
-RSSFEEDS = [
-	"...",
-	"...",
-	"..."
-]
+RSSFEEDS = 
+	http://example.com/example.rss
+	http://example.com/example-for-another-example.rss
+	http://example.com/just-a-third-example.rss
+	
 # Your list of IMDb lists.
-IMDBLISTS = [
-	"...",
-	"...",
-	"..."
-]
+IMDBLISTS = 
+	http://www.imdb.com/user/one-guys-id/watchlist
+	http://www.imdb.com/user/another-guys-id/watchlist
+	http://www.imdb.com/user/third-guys-id/watchlist
