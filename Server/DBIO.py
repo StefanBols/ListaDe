@@ -22,16 +22,16 @@ def findMovieById1(id):
 def findMovieById(id):
 	searchString = '"id":"' + id + '"'
 	result = searchSingleMovie(searchString)
-	return result;
+	return result
 	
 def findMovieByIMDbId(imdbId):
 	searchString = '"imdbId":"' + imdbId + '"'
 	result = searchSingleMovie(searchString)
-	return result;
+	return result
 	
 
 def searchSingleMovie(searchString):
-	movies = searchMovies(searchString);
+	movies = searchMovies(searchString)
 	count = len(movies)
 	if count > 1:
 		raise KeyError('The search produced multiple results')
